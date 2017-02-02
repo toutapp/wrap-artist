@@ -1,0 +1,26 @@
+{
+  "name": "wrap-artist",
+  "version": "0.0.1",
+  "description": "An node wrapper module to wrap async callbacks into Promises to work with async/await",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toutapp/wrap-artist.git"
+  },
+  "keywords": [
+    "async-to-promise",
+    "callbacks",
+    "promise",
+    "es7",
+    "async"
+  ],
+  "author": "ToutApp Engineering <engineering@toutapp.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toutapp/wrap-artist/issues"
+  },
+  "homepage": "https://github.com/toutapp/wrap-artist#readme"
+}
