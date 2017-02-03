@@ -4,6 +4,7 @@
   "description": "An node wrapper module to wrap async callbacks into Promises to work with async/await",
   "main": "build/index.js",
   "scripts": {
+    "examples": "babel examples --out-dir built-examples",
     "build": "babel index.js --out-dir build",
     "prepublish": "npm run build",
     "test": "mocha --recursive --compilers js:babel-core/register"
