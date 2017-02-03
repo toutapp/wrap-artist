@@ -4,9 +4,9 @@
   "description": "An node wrapper module to wrap async callbacks into Promises to work with async/await",
   "main": "build/index.js",
   "scripts": {
-    "examples": "babel examples --out-dir built-examples",
     "build": "babel index.js --out-dir build",
     "prepublish": "npm run build",
+    "examples": "npm run build && babel --copy-files examples --out-dir built-examples",
     "test": "mocha --recursive --compilers js:babel-core/register"
   },
   "repository": {
@@ -14,10 +14,12 @@
     "url": "git+ssh://git@github.com/toutapp/wrap-artist.git"
   },
   "babel": {
+    "presets": [
+      "es2017"
+    ],
     "plugins": [
       "transform-es2015-modules-commonjs",
-      "transform-object-rest-spread",
-      "transform-async-to-generator"
+      "transform-object-rest-spread"
     ]
   },
   "keywords": [
@@ -36,9 +38,9 @@
   "devDependencies": {
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
-    "babel-plugin-transform-async-to-generator": "^6.22.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   }
