@@ -1,6 +1,6 @@
 # wrap-artist
 
-An node wrapper module to wrap async callbacks into Promises to work with async/await
+A node module to wrap async callbacks in Promises to work with async/await
 
 ## Installation
 
@@ -19,6 +19,8 @@ npm install wrap-artist
 - [ ] Ensure support for 3rd party Promise implementations (Q, Bluebird etc)
 
 ## Developing
+
+Make sure to run `npm i` to install the dependencies
 
 Build:
 
