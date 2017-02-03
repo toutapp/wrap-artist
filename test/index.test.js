@@ -2,8 +2,8 @@ import wrap from '../';
 import { expect } from 'chai';
 
 describe('wrap', () => {
-  xit('wraps the given fn in a Promise', () => {
-    expect(1).to.equal(1);
+  it('wraps the given fn in a Promise', () => {
+    expect(wrap).to.be.a('function');
   });
 
   describe('with no args', () => {
