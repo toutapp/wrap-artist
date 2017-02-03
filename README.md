@@ -6,6 +6,7 @@ An node wrapper module to wrap async callbacks into Promises to work with async/
 
 - [ ] Add docs
 - [ ] Add specs
+- [ ] Setup CI
 - [ ] Add examples
 - [ ] Support older versions of node
 - [ ] Handle missing Promise support
