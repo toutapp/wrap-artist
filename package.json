@@ -1,6 +1,6 @@
 {
   "name": "wrap-artist",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "An node wrapper module to wrap async callbacks into Promises to work with async/await",
   "main": "build/index.js",
   "scripts": {
