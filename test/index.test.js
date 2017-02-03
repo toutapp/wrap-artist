@@ -6,6 +6,10 @@ describe('wrap', () => {
     it('wraps the given fn in a Promise', () => {
       expect(wrap).to.be.a('function');
     });
+
+    it('raises an error when no function is passed', () => {
+      expect(wrap).to.throw(Error);
+    });
   });
 
   describe('with no args', () => {
