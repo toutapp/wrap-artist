@@ -18,6 +18,7 @@ import { readFile } from 'fs';
 async function exampleRead() {
   console.log('allow me to introduce myself');
   console.log('');
+  // `name.txt` contains "i am Chance"
   let raw = await wrap(readFile, path.resolve(__dirname, 'name.txt'));
   console.log(raw.toString());
   console.log('the wrapper');
