@@ -11,6 +11,10 @@ npm install wrap-artist
 ## Example
 
 ```js
+import wrap from '../build/';
+import path from 'path';
+import { readFile } from 'fs';
+
 async function exampleRead() {
   console.log('allow me to introduce myself');
   console.log('');
