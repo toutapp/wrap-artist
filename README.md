@@ -32,17 +32,10 @@ exampleRead();
 // => the wrapper
 ```
 
-Build:
+You can also build and run the examples provided in the example dir by running the following commands:
 
-```
-npm run examples
-```
-
-Run:
-
-```
-node built-examples/{example-name}.js
-```
+- `npm run examples`
+- `node built-examples/{example-name}.js`
 
 ## Developing
 
