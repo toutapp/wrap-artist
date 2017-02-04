@@ -1,7 +1,7 @@
 {
   "name": "wrap-artist",
-  "version": "1.0.2",
-  "description": "An node wrapper module to wrap async callbacks into Promises to work with async/await",
+  "version": "1.0.3",
+  "description": "A node module to wrap node style async callbacks in Promises to work with async/await",
   "main": "build/index.js",
   "scripts": {
     "build": "babel index.js --out-dir build",
