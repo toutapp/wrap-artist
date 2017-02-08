@@ -1,4 +1,4 @@
-# wrap-artist
+# wrap-artist [![Build Status](https://travis-ci.org/toutapp/wrap-artist.svg?branch=master)](https://travis-ci.org/toutapp/wrap-artist)
 
 A node module to wrap node style async callbacks in Promises to work with async/await
 
